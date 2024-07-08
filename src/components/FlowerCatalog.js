@@ -2,7 +2,7 @@
 const FlowerCatalog = ({ flowers, onSelect }) => {
     return (
       <div>
-        <h3>Select Flower Arrangement</h3>
+        <h3>Pilih Bunganya</h3>
         <select onChange={(e) => onSelect(e.target.value)}>
           {flowers.map((flower) => (
             <option key={flower.code} value={flower.code}>

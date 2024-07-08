@@ -65,8 +65,8 @@ Phone: ${recipient.phone}
 
   return (
     <form onSubmit={handleSubmit}>
-      <h2>Customer Information</h2>
-      <label>Name: </label>
+      <h2>Informasi Kostumer</h2>
+      <label>Nama: </label>
       <input
         type="text"
         value={customer.name}
@@ -74,7 +74,7 @@ Phone: ${recipient.phone}
         required
       />
       <br />
-      <label>Address: </label>
+      <label>Alamat: </label>
       <input
         type="text"
         value={customer.address}
@@ -82,7 +82,7 @@ Phone: ${recipient.phone}
         required
       />
       <br />
-      <label>Phone: </label>
+      <label>Nomor HP: </label>
       <input
         type="text"
         value={customer.phone}
@@ -98,8 +98,8 @@ Phone: ${recipient.phone}
         required
       />
       <br />
-      <h2>Recipient Information</h2>
-      <label>Name: </label>
+      <h2>Informasi Penerima</h2>
+      <label>Nama Penerima: </label>
       <input
         type="text"
         value={recipient.name}
@@ -107,7 +107,7 @@ Phone: ${recipient.phone}
         required
       />
       <br />
-      <label>Address: </label>
+      <label>Alamat Penerima: </label>
       <input
         type="text"
         value={recipient.address}
@@ -115,7 +115,7 @@ Phone: ${recipient.phone}
         required
       />
       <br />
-      <label>Phone: </label>
+      <label>Nomor HP Penerima: </label>
       <input
         type="text"
         value={recipient.phone}
